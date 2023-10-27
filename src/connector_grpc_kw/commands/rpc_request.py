@@ -35,7 +35,7 @@ class RpcRequest():
         pb_2_grpc_mods = [m for m in sys.modules.values() if m and "connector_grpc_kw.proto." in m.__name__ and m.__name__.endswith("_pb2_grpc")]
         service_pb_2_grpc = ""
         for mod in pb_2_grpc_mods:
-            if service_stub in dir(mod):'Loans'
+            if service_stub in dir(mod):
                 service_pb_2_grpc = mod
 
         file_descriptor = service_pb_2.DESCRIPTOR

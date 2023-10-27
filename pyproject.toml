@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "connector-hasura"
+name = "connector-grpc-kw"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Johan <airess2004@gmail.com>"]
 packages = [{include = "connector_grpc_kw", from = "src" }]
 
 [tool.poetry.dependencies]
